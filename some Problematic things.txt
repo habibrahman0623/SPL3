@@ -1,0 +1,20 @@
+1. confusing data:
+	uninstal support from ui   
+	remov 'playground' file from hmc   
+	support uninstal state in mysql modul   
+	renam/reloc file as appropri   
+	updat hive config to enabl author   
+	manag servic section will have ani empti section when no client onli compon instal   
+	init wizard: advanc config valid error can be bypass   
+	nagio admin contact should be check to ensur it is alwai an email address   
+	templeton data on hdf need to be readabl by all user   
+	updat hdf paramet configur descript
+	refactor job browser user filter   
+	confirm host page: it look like host disappear if you ar on 'fail' filter and click on 'retri fail' button   
+	drop the 'all' option from host > compon filter and job > user filter   
+	dashboard - make disk usag pie chart in hdf summari easier to understand   
+	host health indic should have a tooltip show detail   
+	instal option - line up the target host section with the rest of the page   
+	us ember-precompil-brunch npm plugin   
+	remov hard code jmx port map   
+	job browser - filter by input  output and durat
