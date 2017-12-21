@@ -1,0 +1,1158 @@
+Add additional transition states 
+Preserve cluster id blueprint name and blueprint revision in agent local disk 
+Remove agent entities beans from public schema xsd 
+restart HMC message when is on the hmc host 
+Speed up page times 
+Add support to jump to a specified state in the wizard for development purposes 
+Add Nodes Progress: for partial failure that lets the user continue display an orange bar rather than a red bar in the progress popup 
+Change text on alerts 'about XX hours ago' 
+Create heatmap legend entries for missing hosts 
+The check boxes to one of the members in a multi artifact graphs is not very It should be more apparent on which one the user clicked on 
+Check the dir locations to make sure its an abs path 
+Clean up table header UI for sorting and filter clear 'x' for Hosts table 
+Clean up table header UI for sorting and filter clear 'x' for Jobs table 
+Automatically update host-level popup 
+In any starts fails 'warn' the host and the overall install 
+Add filters module 
+Refactor Job Browser User filter 
+Confirm Hosts page: It looks like hosts disappear if you are on 'Fail' filter and click on 'Retry Failed' button 
+Drop the 'all' option from Hosts > Component Filter and Jobs > Users Filter 
+Dashboard - make disk usage pie chart in HDFS summary easier to understand 
+Host health indicator should have a tooltip showing details 
+Install Options - line up the Target Hosts section with the rest of the page 
+Use ember-precompiler-brunch npm plugin 
+Remove hard coded JMX port mappings 
+Job Browser - Filter by Input output and duration 
+On Confirm Hosts page add a link to show the Host Checks popup in the success message 
+Shrink top nav height 
+Make sure that Ambari Web renders all elements correctly when the browser width is 1024px or narrower 
+Make sure that Ambari Web renders all elements correctly when the browser width is 1024px or narrower (refactor) 
+Properly display Apps page aggregate summary and data table when there are no data to be shown 
+Remove all text from Apps views controllers templates to 
+Host health indicator should have a tooltip showing few details (refactoring) 
+Add username validation for Ambari local users 
+Show validation error when the user specifies target hosts that are already part of the cluster 
+Refactor Job Browser filter 
+Enhance progress display 
+Externalize strings to 
+Since there is the ability to log in to Ambari Web as different users the current user should be indicated 
+Remove hard-coded stack version 
+Optimize query call for retrieving host information 
+Optimize query for getting service and host component status back from the server 
+Optimize ganglia rrd script to be able to respond within reasonable time to queries made by the 
+Hosts page: add filtering by host status 
+Hosts page layout fixes 
+Constrain the width of all wizard popups 
+Stack Upgrade Wizard - resume upon page refresh login 
+Host progress popup - generic component for showing progress on async operations 
+Security Wizard - integrate host progress popup 
+Backend support for MySQL and Oracle for Oozie and Hive 
+For global properties show restart for appropriate services only 
+Make single PUT call for multiple host overrides 
+Capacity Scheduler: when adding a new queue populate fields 
+Capacity Scheduler: implement and admin validation rules 
+Reassign Master Wizard Step 2: prevent proceed next without changing target host 
+Update default stack version to 
+Allow for users to customize Nagios user accounts 
+Hosts tab: clicking on red badge should not toggle 'Alerts' filter 
+Add validation checks for Add Property on custom site configs 
+Make frontend changes to account for the host component status UNKNOWN 
+HBase Heatmaps: clean up labels and units 
+Changing service directories should popup a dialog upon save 
+Support for configuring and running Ambari Web Server https 
+Enable customization of smoke test user 
+ambari-web modifications to allow for Hadoop Compatible Filesystems (HCFS) 
+Use modified dependencies if a stack contains an HCFS service (Hadoop Compatible File System) 
+Agent heartbeat lost during install 
+Add unit tests for Utils 
+Change config loading mechanism to allow for different stack versions 
+Provide way to optionally enable two-way SSL for Server-Agent communication 
+Unit Tests: Added tests to install wizard for step 3 5 10 
+Show installed stack and its services 
+Unit Tests: Added tests to models 
+Add Host Wizard: show info about manual steps required on a secure cluster 
+Add support for 'classic' dashboard 
+Set default widgets to show for the Dashboard 
+Create command line script to manipulate Ambari configurations (get set add delete) 
+Security Wizard: show which principals and keytabs need to be created on which hosts 
+Remove dependence on dfs_datanode_http_address global for Nagios checks 
+Add download CSV action for security wizard 
+Simplify Local Repo setup in installer UI 
+Security Wizard: Create separate page for 
+Security CSV cleanup 
+Update Ember-I18n 
+Read timeout issues in Oracle JDBC connections where read has a long timeout 
+Improve styles for HostCleanup code area 
+Add a re-type new password field when changing passwords for ambari users 
+Disable Show report for 0 issues 
+Disable autocomplete on form tag for Ambari 
+FE should show the error when it encounters error while persisting web client state 
+Dashboard refactor and Unit tests 
+YARN time series data needed for AllocatedContainers 
+HDFS Service Check failed (as designed) but took 10 mins to fail 
+Rename alert titles and descriptions 
+Provide read-only view of security wizard entries 
+Trim validate config parameter values to prevent failures due to extra spaces 
+Amabri Client refactoring -2 
+Setup the krb5 Jaas configuration using 'ambari-server setup-security' 
+Provide UI page to experimental functionality 
+Cleanup UX for advanced database in 'ambari-server setup' 
+Hosts: clarify which filter is in effect 
+Modify UI text for host cleanup 
+Ambari should allow changing Ganglia cache location 
+Modify messages from 'reassign master' to 'move master' 
+Frontend: History server should be managed as separate component 
+Mirroring page redesign 
+Storm: Update Dashboard Services to support Storm 
+Storm: Install Add master components Storm UI Server DRPC Server LogViewer Server 
+Storm: Add Storm UI Server DRPC Server LogViewer Server components config 
+Task timeout should be a configurable knob at the ambari-server 
+max value should not exceed 1024mb 
+Ambari version info should be visible in UI 
+Add ability to delete individual DataNode TaskTracker NodeManager and RegionServer from Host Details page 
+Refactor and Unit tests for host summary 
+Jobs: implement the TEZ DAG 
+Ambari should check that there is enough disk space during installation 
+Reduce loading time of Host Warnings popup 
+Don't do server-client version match check if have not been set on ambari-web 
+When new host components are created thru API some indication should be given that Nagios has to be restarted 
+Usability: Improve Stack Definition support for repositories 
+View: Files UI clean-up and adjustments (PART 2) 
+Ambari should generate config files in sorted order 
+Add support for auth proxy 
+Add refreshQueues custom command to YARN service 
+Customize the Hadoop metrics sink to write to MySQL store 
+Ambari Groovy client enhancements 
+Get sql metrics logic should be reviewed 
+Ambari support on CentOS7 - I 
+Add ZKFC component to summary page (when NNHA enabled) 
+HostNames and Slaves broken in two lines on Assign Slaves step 
+Throw Useful exception on No TypeConverter Available 
+Most recent snapshot requires ActiveMQ 
+enable polling via the http component 
+XPath namespaces configuration not possible through xml 
+New converter : Node -> Source 
+Upgrade geronimo-specs version to 
+Add getter method for routeCollection property in RouteBuilder class 
+cxf camel transport should support to register itself to the cxf bus automatically 
+DeadLetterChannel - logging improvements when exchange handled by dead letter 
+support to set the aggregation stragey of multicastProcessor 
+MulticastRecipientList - recipient list that uses multicast processor 
+Remove tangle between impl and 
+Mail component is missing some configuration possibilities 
+Synchronous mode should handle exception being thrown from MINA 
+camel-mina: allowing the lazy creation of a connection 
+Mina Producer should have configurable timeout 
+camel-mina improvements 
+Parallel processing route 
+Improve logging for camel-mina 
+MinaProducer waits for MINA worker thread to timeout when stopping JVM from standalone client 
+Improve FTP component wiki documentation 
+splitter() should have the same parallel processing functionality that multicast() has 
+Improve File component wiki 
+Upgraded to OpenJPA 
+make it easier to create Endpoint instances nicely via Spring XML 
+Document - File component when its using file or directory names 
+XsltBuilder synchronizes on process method making performance bad on XSLTs 
+The spi package should not depend on the processor package 
+JMX Instrumentation - PerformanceCounter - total processed 
+[patch] postpone creating browsing strategy until and only if its needed 
+Change the JMX default connetor's URL to avoid the confilict with the ActiveMQ or ServiceMix JMX default connector 
+Headers should be modifiable using velocity templates 
+File component - file rename pattern to support patterns such as date time 
+JMX Instrumentation - PerformanceCounter - last processed timestamp when failed 
+Component documentation - needs overhaul check for missing options add more samples etc 
+create a error so you can easily use a transaction & rollback on a route - with redeliveryDelay to just fail the route if it can't be processed 
+Transactional Client - Setting Spring Policy is a bit cumbersome in the XML 
+Upgrade Geronimo specs to when available 
+CXF - Easier use for end-user to retreive POJO data 
+Change default DeadLetterChannel strategy in Camel 
+Log component should use ExchangeFormatter for formatting log output 
+CXF - - camel-cxf should be smarter 
+JMX Instrumentation - check for already registered before registering 
+Camel transport should set the content type property into the camel message header 
+support to set the loadBalancerStrategy before the outputs 
+File component - write to temp file and rename to real name startegy 
+Type Converter - if not possible to convert LOG a WARN 
+mina should be exchange pattern agnostic 
+splitter() should support batch for processing large files 
+Access HttpRequest Params from 
+tracer - option to disable interceptors 
+Manage non-singleton endpoints in the CamelContext 
+JMS InOut operations should default to non transacted even if the JMS component or endpoint defaults to transacted; as typically RPCs over JMS are not transacted 
+error should default to error and error should operate as a builder 
+camel-mail - type converter to InputStream 
+FileLanguage - to support constant expressions 
+bean binding - annotation to get the exception from exchange 
+Maven goal camel:dot should use overridden when specified 
+Http producer should be smarter to select correct GET or POST method 
+Quartz support should allow stateful jobs 
+camel http Uri from the message header 
+Add ability to configure log level on exception from DLC retry mechanism 
+Add support to tracer for logging out messages 
+Passive mode 
+Remove specialized Exchange and make DefaultExchange final to pave the road for optimization by reducing exchange copies 
+Spring DSL - redeliveryPolicy element should have ref attribute 
+File component - exclusive read lock strategy using renaming 
+camel-xmpp to work with google chat 
+camel-restlet security extension 
+Improve JMS header name strategy 
+Tracer - allow configuration of fixed size of leading breadcrum or let it be variable sized 
+file consumer - support expression for setting the to consume 
+camel-cxf: URI option for serviceClass does not support lookup in registry 
+Seda component should configure its executor 
+The xpath expression evaluations should rest the cached stream 
+Add regexReplaceAll to builder support 
+@Header should have a value default so you do not have to set the name attribute 
+Camel-quartz - improve setting of cron expression to be more cron like 
+Bean component - improve method selection logic for overloaded methods 
+IdempotentConsumer - should only add to repository after processing so we know the processing was a success 
+Added a Spring configuration in the camel-example-reportincident 
+Bean component should propagate headers 
+and StreamSource wrapped should be easier to route with JMS 
+Allow sending MIME messages with both a plain-text and body and allow sending images inline 
+http component - allow failed responses to be returned on the exchange instead of exception 
+Upgrade camel-http to use httpclient 
+Apply removeHeader also to the underying JMS message delegate 
+Clean up the 
+Clean up the CamelNamespaceHandler 
+CAMEL-HTTP should copy system proxy settings 
+Enrich DSL - Add fluent builder for using default aggregation strategy 
+error - add support for redelivery 
+Remove cycle between model and util 
+Better logging at startup if Camel uses camel-osgi or not 
+ScheduledPollConsumer - Should not throw polled exception on stop 
+Validator component to use SaxSource internally 
+Upgrade maven build to use apache 6 pom and related 
+camel-file - consumer starting directory should validate that its configured properly eg not containing dynamic expressions etc 
+camel-jms - allow a header like JMSDestination to override the destination to send to 
+EventDrivenConsumer - Wait starting them until all other processors routes have been started 
+FTP component - add option to specify retry login attempts 
+file component - markerFile read lock - do not use nio FileLock 
+Cleanup unnecessary copy related methods in Exchange 
+Provide a flag to avoid mapping a JMS message to it's actual type 
+camel-mail - Add option to ignore unsupported charset and fallback to platform default instead 
+camel-jms - DefaultJmsKeyFormatStrategy should replace with _DOT_ to avoid conflicting with end user using _ 
+camel-irc consumer only listens to messages on a channel and ignores direct messages 
+XMPP producer and consumer don't share the same connection and Chat objects 
+camel-file - Consume and pollEnrich another file should work transparent 
+XmppBinding will add non-serializeable header values to the outgoing xmpp message 
+Revamped IRC component event adapter logging 
+Add server name to logging event adapter 
+camel-jms consumer endpoint should allow properties such as maxConcurrentConsumers and concurrentConsumers to be managed via JMX 
+Exchange - getIn and getOut with expected type parameter 
+camel-irc should handle onReply callbacks 
+Restarting JmsConsumer should pickup configuration changes 
+Better OSGi metadata to allow deploying multiple camel versions in the same OSGi framework 
+Spring DSL - error should only be support on camel context or route 
+DataSet - Add initial delay with a default of 1 sec 
+DeadLetterChannel - Should pre check the endpointUri is valid and report failure on startup 
+camel-jpa - JpaProducer should mandate body instead of creating a new empty instance 
+CamelContext should support autoStartup 
+@Bean - Add method to the annotation so you can configure the method name 
+Workaround for exception 
+UnitOfWorkProcessor - Should wrap more EIPs such as Aggregator Splitter RecipientList on their child routes 
+Remove dependency on spring core in PatternBasedPackageScanFilter 
+TryProcessor - Do not use local copy Exchange in doCatch 
+Improvment in example archtypes 
+RestletProducer should support native async semantics 
+camel-cxf - CxfProducer should check parameters more strictly to ensure we have the number of parameters required 
+When the 'from' endpoint is improperly set it can be very hard to work out 
+camel-jdbc - Allow properties to be set on Statement such as fetchSize maxRows etc 
+file producer - NIO transferTo 2gb bug in jdk 
+Ridiculously long release time due to the javadoc plugin 
+seda component - Support no timeout for task to complete using timeout 0 or negative 
+exception - Let it be able to log additional information such as a custom message or current exchange 
+StrictHostKeyChecking Url Option 
+UnitOfWork - Must be done in finally to ensure even when is thrown fore reliable shutdown 
+The in Spring XML should support using serviceRef to lookup a reference for an endpoint 
+package will log WARN that you should use packageScan We should keep both options so remove the WARN 
+MailConsumer should log exception in processRollback 
+EventNotifier - Make it easy to ignore unwanted event categories 
+camel-jdbc - Add option to select between JDBC 4 or 3 column label name semantics 
+Keep the lastModified timestamp when writing a file 
+Bean Expression for Non Registry beans can't reference an instance 
+Let ExpressionClause be reusable by other builders which are not route based 
+camel-bean - CGLIB proxied classed having trouble using annotated bean bindings 
+Remove some dependencies 
+DefaultTypeConverterRegistry - Let it load upfront 
+DefaultCamelContext starts route services out of order 
+Mock component - expected header and property should output the name that fails 
+seda endpoint - Let it be easily to configure size option to use an unbounded queue 
+NotifyBuilder - add reset method 
+PollingConsumerPollStrategy - Should support boolean on begin to support skipping polling 
+SedaConsumer - Add check to limit the concurrentConsumer to < 1000 to prevent mistypes 
+Batch Resequencer issues with JMSPriority 
+Allow recipientList to be used inside a CBR using Java DSL 
+Graceful shutdown - Add option to shutdown routes in reverse order as they were started 
+support get operation for cache 
+Make use of testing mocks of the the GAE SDK 
+Aggregator - Add option to specify if completionInterval to have interval based completion 
+XPath - Add type converters from the pesky XPath types to String InputStream 
+Smpp component schedule delivery time should default to null 
+camel-spring - Spring - Add depends-on in the namespace handler to make it easy for end users to use Spring and Camel without considering ordering of their beans 
+RoutingSlip - Let it be expression based 
+Camel-bindy should be able to process fix length records 
+SendProcessor - When a route is started it should be able to warmup the Producer 
+OnCompletion - Let it be executed last so the internal on completions can be executed beforehand 
+ManagementAgent should expose for the JMX settings so you can set it easily from Java 
+Graceful shutdown - Add option to shutdown manually routes 
+Support for Binary Files in HttpProducer 
+CsvDataFromat delimiter should also be configurable in the DSL 
+Thread Name Syntax - Do not output endpoint parameters to be less verbose 
+Redelivery policy's retryUntil option should be renamed as retryWhile 
+URIs for viewing a route as a language clashes with any other possible sub resource for routes (such as status) 
+remove ugly warnings running tests since upgrading to jetty 7 
+update camel-http and camel-cxf features to use Commons Codec 
+more eager validation of routes 
+Use forkMode=once for the surefire plugin to significantly speed up tests 
+Injecting Properties into the PropertiesComponent with Spring 
+Upgrade to JCR 
+Upgrade to HawtDB 
+When polling consumers is shutdown do less verbose logging for rollback strategies 
+JmsProducer should support non blocking routing engine 
+DefaultHttpBinding's populateRequestParameters should be more flexible when checking the content type on POST 
+Add removeEndpoints to CamelContext 
+Enable the deletion of routes via REST in camel-web 
+Adding routes straight from XML should have Camel prepare the RouteDefintion as its done like in camel-spring 
+Velocity - Let it be able to load resources from both classpath and file system out of the box 
+provide an optional interface Endpoints can provide to generate a simple String ID which can be used within the class loader to make JMX REST APIs simpler to avoid having to encode large URIs 
+Archetype for creating component should have better sample component 
+Simple language - Allow unlimited usage of and or operators in expression 
+issue for converter lookup 
+Support user-defined shutdown timeout for CamelTestSupport 
+Use ActiveMQUuidGenerator as the default uuid generator as its faster than the JDK UUID generator 
+Context-sensitive setting of default UuidGenerator 
+Aggregator EIP - Add option to ignore timeout completed 
+Add alternative start token for simple language to avoid clash with Spring PropertyPlaceholder 
+Add Exchange creation time to the exchange as property 
+Route definitions should use boxed types and lazy evaluate defaults in the getter 
+RetryWhile is missing on the error DSL 
+Let LazyLoadingTypeConverter load the converters from camel-core on startup 
+support the Ordered Interceptor Strategy configured in spring 
+CaseInsensitiveMap concurrency issue 
+Let custom Processor be managed in JMX when implementing ManagementAware 
+Multiple Endpoints with the Same Port in Restlet Component 
+Add to Simple language 
+Stepwise change of directory unfit for production 
+Quartz component has minor issues with old versions of Quartz 
+Add option on FTP component so you can set which path separator char to use (eg windows vs unix) 
+Tidying up strategy for managing resources in JMX 
+Use ServiceMix guice bundle 
+DefaultTimeoutMap should force scheduler in contructor 
+DataFormat - Support for CamelContextAware injection and callbacks with Service 
+Camel-XMPP Consumer doesn't pass XMPP headers 
+NotifyBuilder - Should throw exception if it hasn't been created and matches is invoked 
+Some of JpaTraceEventMessage's attributes require @Lob annotation 
+Additional TypeConverters 
+classpath problem with camel:dot and provided dependencies 
+PollingConsumerPollStrategy - Add information to commit how many messages was polled 
+camel-jms - Improve logic waiting for ReplyTo destination to be computed when doing 
+BindyFixedLengthDataFormat does a trim on Fixed Length record 
+When Camel loads properties Camel should remove spaces (trim) from the end of the 
+Update archetypes to use new descriptor format 
+camel-snmp - Should mask password in the endpoint class 
+In some places we use instead of 
+JMS spec and JPA spec JARs should not be compile scoped by provided 
+ServiceHelper - Avoid service if already 
+Include test directories in the archetypes 
+camel-smpp should unbind from SMSC before disconnecting 
+Force disable Quartz UpdateChecker 
+Upgrade maven-bundle-plugin to version 
+camel-core-xml - Add for endpoints 
+Fix the Sonar Blocker: Performance - Maps and sets of URLs can be performance hogs 
+BinaryPredicate - Dont store state to ensure thread safety 
+Make it easier to derive from the Camel model 
+Java DSL - Allow load balancer to be used inside CBR 
+Tidy up AST model to proper support output or not 
+camel-jms: testConnectionOnStartup does not test connection for producers 
+Camel properties component - Add support for using jvm in location 
+ThreadPoolProfile - Use string types so its much easier to use property placeholders 
+IgnoreInvalidEndpoint should log invalid endpoints at DEBUG level 
+Add comments on the CamelContextTestSupport class to tell user to start the camel context manually when the test doesn't use the RouteBuilder 
+Let log log eip and mock producer be async processor 
+Add an example which use CXF bean binding and the OSGI HTTP Service PAX Web with jetty) 
+After switching to slf4j we can get rid of the 'isTraceEnabled' 'isDebugEnabled' and 'isInfoEnabled' statements 
+option to force sending original JMS message 
+Try to copy file when rename fails 
+Polish the aws component 
+The camel-cometd component does not support a custom SecurityPolicy or Extension as described on 
+Allow cometd component to send message headers with the message 
+camel-cache - Should use Camel style constant keys 
+Avoiding to process the bean which value is null in CamelBeanPostProcessor 
+camel-cache exception message: CamelCacheOperation not specified in the message header [CamelCacheKey] 
+Prevent 'FolderNotOpen' exception when closing out an email exchange 
+Sending a message to log endpoint should not convert payload to StreamCache 
+Script arguments 
+camel-soap - Add support for multiple parameters 
+Add send body operations to managed CamelContext so you can pass in headers as well 
+Updated Hazelcast to version 
+Java DSL - New means to explicitly end blocks 
+cxf:rsServer requires class instead of interface in the serviceClass attribute 
+Replace the NoCacheStorage Class 
+Loop EIP - Add copy option to let it start next loop with a copy of the original exchange 
+Create camel-quartz2 component to support Quartz 
+XML DSL having attributes that is a Class type should be a String type instead and use ClassResolver to lookup the class 
+In doTry doCatch doFinally the FAILURE_ENDPOINT details should be available as well in case an exception was thrown 
+Refactorings in camel-cxf 
+SpringWebserviceConsumer should check if there is an exception connected to the exchange and throw that one if it exists so that the default error in spring-ws can take place 
+camel-sql - JDBC aggregation repository - Should use ClassResolver from Camel to load classes 
+JMX API to endpoint 
+Improve for camel-jibx - use maven-jibx-plugin 
+checks only one header 
+Add getRouteId() to TraceEventMessage 
+A name should be specified in the karaf features-file 
+Add Lazy Connection to XMPP 
+Added wrap method for template consumer and context in 
+avoid runtime package scanning to discover TypeConverters 
+When performing lookup in registry and having expected type as parameter then report better failure if exception 
+Expose setDeliveryMode property in 
+Camel-AWS: Add support for adding CacheControl and ContentDisposition metadata support when uploading file 
+camel-jdbc should provide a option not set the autoCommit flag 
+Camel archetypes and examples should enable JMX for ActiveMQ 
+Add error option for DMLC to camel-jms 
+Validator component - Should be able to validate from a File payload 
+Add String->TimeZone converter so that time zone can be specified for camel-quartz 
+Impossible to use placeholders in endpointName and serviceName attributes of cxf:cxfEndpoint 
+Using transacted in Java DSL without Spring XML setting up TX manager should report better error when not able to find a TX manager in the registry 
+faster way of testing for file existence 
+Move to 
+Refactoring of management code to remove cycles and clearly separate between API and impl 
+Camel test - Debugger should be explicit enabled if end user want to leverage it 
+The debugger doesn't work in the CamelSpringTestSupport with route defined in XML 
+add support to set the cipher used for SFTP 
+Fix OSGi-exports of camel-soap 
+The URI of the ServletEndpoint exposed to the JMX is not accurate 
+CamelLogger should not be a Processor and a log class at the same time and it should not have ServiceSupport 
+camel-hazelcast should allow the user to provide an existing instance to the component 
+camel-csv - Make it consistent what unmarshal returns as object so its the same for 1 or more rows 
+Resolve cycle between and 
+Be able to check classtype through simple language 
+Add a Tracer that uses JMX Notifications and provides full details of Camel Messages 
+The SFTP component: the keyboard-interactive auth method support 
+Spring-WS should populate Camel Header with the SOAP Header 
+NotifyBuilder wereSentTo condition fires too eagerly 
+Support nested directories with multiple segment files in the HDFS endpoint consumer 
+Add default for transactionName in camel-jms 
+Improve and apply it in additional places 
+Add support for PGP data format in Java and XML DSLs 
+Do not print in toString in camel-jms 
+Add option to override XSLT stylesheet used via header 
+Text improvements to 
+file endpoint to raise a warning msgs if unable to auto-create the starting directory 
+Change cometd SslSocketConnetor to use SslSelectChannelConnector 
+Unable to set logName on error as well as executorService on error 
+Avoid explicit cast while using the or API and better rely on the overloaded counterpart of them taking a class type as the second argument (implicit cast) 
+Make Ant path matching in file FTP component easier to use 
+Improve Camel aws-sdb component 
+camel-jms - Include details about correlation id in exchange timeout exception if a reply message did not come back 
+Add replyTo option to camel mail component 
+interceptSendToEndpoint with predicate and skip 
+Log EIP - Check if it should log first before evaluating exchange 
+Tech edits of JavaDoc and other code comments -- lets -> (let's allow {}) 
+Ability to specify the cache level on JMS reply to queue 
+camel-mina - Make it easier to use a custom thread pool for the consumer 
+add feature for camel-context component 
+SedaConsumer - Should not poll if CamelContext is starting 
+Testing headers in multiple messages 
+antInclude support for case insensitive patterns 
+Add session information from cometd to camel message headers 
+exception thrown if @Consume method is not public 
+Support unmarshall of CSV files that does not contain all fields described in the annotated 
+DefaultUnitOfWork should copy headers from the original message if it's a JmsMessage 
+Offer a way to not set a transaction manager in camel-jms 
+fails unpredictable 
+Timer component - Should use thread name pattern so the thread name is aligned with the Camel threads 
+Add option autogenColumns to csv data format in XML DSL 
+Add the options configRef and strategyRef to csv data format in XML DSL 
+Set Restlet Server Options and Return HTTP Headers Set in Exchange 
+exception policy within global context lost when error handler redefined within route 
+Avoid parsing URI each time when getting uri from endpoint 
+exception No space left on device' exception swallowed by camel 
+Bean component - Should preserver properties from exchange to allow to transfer state 
+Implement connection pooling in jt400 component 
+jt400: program call should support binary format 
+Relax simple language checking for function tokens to only validate start tokens has appropriate end token 
+Make it possible to change the remote file name without changing the local file name 
+Add community and peer address of SNMP TRAP PDUs to camel-snmp header 
+Dependencies with inconsitant paths in repository 
+Main is bound to DefaultCamelContext 
+camel-ftp - Add option to check files without downloading 
+camel-bindy - Do not use locale if not explicit configured 
+Add a Camel Component to support MQTT 
+SOAPMessage to InputStream conversion needed for some CXF SOAPMessage Provider scenarios 
+Improve performance of DefaultJmsKeyFormatStrategy 
+Better error message when trying to write a null body as file 
+camel-jms - Log at INFO level if shared replyTo queues are in use as they are not as fast as temporary or exclusive queues 
+Support to build the camel-soap offline 
+Add option to restrict HTTP method in camel-jetty and camel-servlet 
+Add option to changed readLock to denote whether a zero file size is accepted or not 
+Improve how the AWS-SQS component create a new queue with additional attributes 
+Support key password for private key access in XMLSecurity 
+Make Spring Optional Bundle Import for CXF Transport 
+camel-jackson - Make it easier to support List as output out of the box 
+An exception when constructing JT400 endpoints should not leak the password 
+Netty - Should use ordered thread pool 
+camel-netty - The ordered thread pool should be shared 
+Spring-WS consumer and producer do not propagate some custome headers and attachements to a response message 
+Camel Splitter eat up exception recorded by the underlying Scanner 
+RoutePolicySupport should provide some easy to use utility methods to routes as we have it already to routes 
+limitaions on s3 no means to specify acl on created objects do not inherit acl from the bucket they belong 
+option to add bundle directives in the generated test bundles by camel-test-blueprint 
+Adding blueprint based camel-cxf tests using camel-test-blueprint 
+camel-mongodb - Add converters for files or inputstreams 
+FTP endpoints should support charset property like File endpoint does 
+Scala DSL: no method 
+SpringIntegrationConsumer should honor the 'inOut' instance variable by setting the MEP and sending back message headers 
+Dead Letter Channel - Store failed route id on Exchange 
+OsgiServiceRegistry to lookup services with filter on name=blah 
+Add PGP signature and signature verification support to PGPDataFormat 
+camel-bindy fixed length record improvements 
+Improve the BeanInfo performance 
+Camel Spring registry does not look into parent contexts 
+Check if body is a MimeMessage and send it directly without create a MimeMessage from body and headers 
+Improvement to SqlProducer class 
+Camel incapable of working with + in endpoint URIs 
+Camel-AWS should support any implementation of AmazonXXX (not only AmazonXXXClient) 
+json data format - Add support for configuring gson options 
+Http4 component does not support PATCH 
+Sql component - Add noop option to execute the query but dont change the message body afterwards 
+camel-stream - Shutdown thread pool on consumer should happen faster 
+Bean - Improve choose method logic for no parameter methods 
+Make SqsConsumer support async processors 
+Camel archetype component - Use bundle packaging so component is ready to install in OSGi 
+Moving logic out of getTypeConverter 
+Control Bus - Add suspend and resume actions 
+camel-netty - Loading key store and trust stores should support classpath as well 
+link to camel registry in camel-stax is missing 
+Validations exception should include 
+camel-sjms - Consumers should always use dedicated Sessions 
+cxf endpoint's should log the parsing exception when failing to extract the root element name 
+Can't access to length of Array (java) from simple language 
+FtpConsumer fills up log file with 'Cannot WARN level messages 
+SFTP endpoint fails if the server disconnected the socket 
+Add ability to connect to SQS queue of different owner 
+Support attaching to SQS queues where the user doesn't have permission to list the queues (manually build URL) 
+Add requestBufferSize and requestHeaderSize options for jetty 
+should detect if its a predicate and use that instead 
+FTP consumer - Add option to not use LIST command 
+Add allowNull option to @Converter to allow type converters to return null as valid response for special use-cases 
+Throttler does not honor time slots after period expires 
+Simple language - Have singleton language for better performance 
+camel-test-blueprint - Allow to register custom services in OSGi registry before Camel starts 
+DefaultStreamCachingStrategy - Check for enabled in shouldSpoolCache method 
+binding component - Should its child services 
+Add cache option to beanRef and in the DSL 
+camel-jt400 - no longer able to configure a pollStrategy on Jt400DataQueueEndpoint 
+mustache component - Should use app class loader to load templates 
+UnitUtilsTest cant manage a locale different from US 
+InterceptFrom - Add support for using property placeholders 
+When using encryption do not store the length information about the external key in 
+Support for like ? Escape ? 
+Request support for CAST() in Like clause 
+Add support for insert functionality using JDBC updatable resultset apis 
+[PATCH] Improvements on the NetServlet 
+in place compress which returns space to OS 
+Inserting values in an identity column 
+Add Support for network Server USRIDONL security 
+Optimize some specific methods in Network Server to improve performance 
+Javadoc build should include a timestamp the svn revision number in a visible 
+'FOR UPDATE' required for updatable result set to work 
+Fix copyright notices and other references in 
+Need a online backup feature that does not block update operations when online backup is in 
+connection toString should uniquely identify the connection 
+Network Server demo program should support Derby network client driver 
+Provide some way to update index cardinality statistics reimplement update statistics) 
+Network client message strings not internationalized 
+Create a new sample database for use in examples in the manuals 
+Expose BOOLEAN datatype to end users 
+Integrate upgrade tests into test suite 
+SELECT MAX doesn't use indices optimally 
+Remove backup(File methods 
+Starvation in 
+should create statistics if they do not exist 
+Materialize subqueries in select list where possible to avoid creating invariant resultsets many 
+Enhance ALTER TABLE syntax to allow users to change the next value to be generated for an identity column 
+Allow parallel access to data 
+One each deleted or updated from a heap row a new RowPosition object is 
+Client driver: Pre-fetch data on executeQuery() 
+modify setCharacterStreamInternal to take a long for the length and perform the > max int check in the method 
+introduce a new test type to run junit tests from the current harness 
+new JDBC4 metadata API getFunctions() needs to be implemented 
+Change the internal implemetation of SYSCS_INPLACE_COMPRESS_TABLE to share existing alter table 
+Separate XAResource from EmbedXAConnection 
+allow the encrypting of an existing unencrypted db and allow the re-encrypting of an existing encrypted db 
+Helper methods in BaseJDBCTestCase for creating data sources 
+ij should have a --help option to print command line syntax 
+Remove the huge log files left from running 
+Move isPoolable() and setPoolable() from PreparedStatement to Statement 
+Verify that applications can't manipulate the transaction state while inside a distributed 
+Implement new JDBC4 methods for creating empty LOBs in the embedded client 
+Calling on a scrollable insensitive resultset causes the entire ResultSet to be populated 
+SUR: Use DRDA's extended diagnostic to send ROW_UPDATED and ROW_DELETED 
+file should not translate Network Server 'start' and 'shutdown' commands 
+add to derbynetclientmats 
+File - Message 
+Add MessageBundleTest to build script to verify that there are no orphaned message ids 
+Network Server should flush the PrintWriter after console output 
+Provide ALTER TABLE DROP COLUMN functionality 
+testSecMec needs many masters - should convert to junit 
+Upgrade test needs to be enhanced to test grant revoke 
+Factor out type checks in EmbedResultSet and EmbedPreparedStatement 
+A trigger should be dropped when a privilege required by the trigger is 
+enable more testcases in ConcurrencyTest 
+A 'revoke execute restrict' should fail if there are dependent objects on the execute privilege 
+Network Server should not send to client that it supports EUSRIDPWD when running against Sun JVM 
+Add more tests for method 
+Deprecate scripts in frameworks directory 
+Implement Bracketed SQL comments comments) 
+The database owner is incorrectly referred to as dba in the code comments that were checked in Derby for grant revoke We should clean this up at some 
+Create a script that allows users to easily update their Derby jars with the JDBC4 
+Bring STATUS file up to date 
+Add re-encrytion of database test cases to the upgrade 
+Make FOR EACH clause and MODE DB2SQL in CREATE TRIGGER statement optional 
+Remove stale code from the statement classes in the client driver 
+improve XSDG3 error to print container actual operation and file 
+Add Order Entry 
+Convert to JUnit 
+Convert to JUnit 
+Use a lower wait timeout in BlobClob4BlobTest 
+provide checking tool to flag possible error in message translations 
+Make class final 
+Rewrite to a JUnit test 
+Implement communication between client and server 
+Let Clock embed a HashMap rather than inherit from Hashtable 
+Change some boundary checks in ArrayInputStream to ASSERTs to improve performance 
+Add long running System test for Derby 
+Replace Vectors and Hashtables with ArrayLists and HashMaps in RAMTransaction 
+Reduce use of synchronized collections in GenericLanguageConnectionContext 
+Add performance tests to Derby using the junit perf framework 
+needs to be updated with information on JUnit tests 
+Let use the special single-col FetchDescriptor ctor 
+Test harness should support J2ME 
+exception when exiting 
+Add a generic utility tool to drive the Order Entry load 
+Convert to JUnit 
+Code cleanups for the packages 
+Provide collation sensitive subclasses for SQLChar SQLVarchar SQLLongvarchar and SQLClob which will use the passed Collator to do the collation rather than the default collation of UCS_BASIC 
+ejbql and floattypes in intermittently fails with 'expected: but ' 
+Convert to junit 
+Enhance Derby with EXPLAIN Functionality 
+Convert and grantRevokeDDL2 to JUnit 
+Make Locale available in This Locale object will be used to construct Collator object if the user has requested territory based 
+Create a utility which generates Release Notes 
+AssertFailure class should use JDK's built-in chaining of exception 
+At code generation time look at collation type to determine what kind of DVD should get generated for character 
+Derby should print the parameters to failed statements to the when it logs the error 
+Expose existing auto-generated key functionality through more JDBC APIs in embedded 
+Convert to JUnit 
+Convert to JUnit 
+performance of like in territory based collation databases may be improved by changing way collation elements are 
+Implement not implemented Embedded methods pos long length) and getCharacterStream(long pos long length) 
+Rewrite ClobUpdatableReader constructors 
+Improve error reporting fix issues and replace tabs in UTF8Reader 
+Rename ClobStreamControl to TemporaryClob 
+Implement a buffer manager using classes 
+Convert to JUnit 
+convert to Junit 
+Derby does not resolve functions bound to methods with 
+Use in TransactionTable to improve scalability 
+Adjust master build script to require the Java 5 compiler to build Derby 
+Cut down on object creations in LIKE clause implementation of territory based 
+Reduce dependency on NetworkServerControl in TestConfiguration 
+Updating 
+New simple demo suitable for supported Java ME platforms 
+Minor cleanup in the Derby JUnit classes 
+provide support for unique constraint over keys that include one or more nullable 
+Nested WHERE EXISTS queries need improved testing 
+Adjust demos to avoid re-compiling SimpleApp and SimpleMobileApp 
+Register a network port for replication 
+Move the setup of NormalizeResultSetNode into the NormalizeResultSetNode 
+startNetworkServer and stopNetworkServer don't pass arguments 
+Change Collation test to run DatabaseMetaDataTest BatchUpdateTest GroupByExpressionTest and UpdateableResultSetTest for only one locale 
+Remove unused method String Properties) 
+Remove and called methods 
+Don't call from instances of RAFContainer4 
+Improve error information reported when encountering error XSDB3: Container information cannot change once written: was 103 now 80' 
+SQL Length function materializes BLOB into memory 
+Add more tests for commands in the different replication states 
+Revoking EXECUTE privilege on a function if used in a CHECK constraint: implementation problem 
+Rename 
+Create a utility class for skipping data in an InputStream 
+LOBStreamControl shouldn't throw exception 
+Add a SHOW FUNCTIONS command to ij 
+Convert and to JUnit 
+need to test getting appropriate error message when os files are read-only 
+Behaviour of setTypeMap() differs between embedded and client 
+Failed tests should save the database off to the fail directory 
+Add tests of generated columns when sql authorization is turned on 
+Improve performance of reading modified Clobs 
+Add a facility to override the default set of old versions to be tested in the upgrade 
+Remove dependency of junit targets on deprecated jdk16 variable 
+Improve length caching in TemporaryClob 
+Replace file with the felix sources 
+Use helper methods from IdUtil to quote SQL identifiers in EmbedResultSet 
+It should be possible to run unit tests right after 'ant all' 
+Provide a way to drop statistics information 
+Create a test to verify that virgin metadata is identical to hard-upgraded metadata 
+improvements to the mailjdbc test 
+Javadoc for BTreeLockingPolicy should not mention 'scan lock' anymore 
+Convert to JUnit 
+Remove unused pre-i18n constructors in exception 
+Improve transition from read-only to writable Clob representation 
+convert to JUnit 
+Mutable public static variables 
+With derby client setTransactionIsolation executes and commits even if isolation has not changed 
+test nstest generates error XBM06 re reencryption and 22003 re value outside range for 
+Implement CROSS JOIN 
+TableFunctions provide no information to limit underlying query 
+Replace and in the client driver with standard methods in 
+Transformation to inner join not performed for certain three-way joins 
+Make getNegation() abstract in BinaryComparisonOperatorNode and UnaryComparisonOperatorNode 
+Add proper delete mechanism for in-memory databases 
+Use helper methods from IdUtil instead of 
+Use AtomicLong for 
+Add support for 
+Document and clarify the use of int) 
+Refactor and extend data type cloning facilities 
+If the CREATE TRIGGER does not have the REFERENCING clause then there is no need to keep before and after values for the triggering table 
+Avoid materialization where possible when cloning CollatorSQLClob 
+would like an alternative location for 
+Allow database user to execute stored procedures with same permissions as database owner routine definer 
+Remove 
+Corrupted database prevents startup and should be automatically repaired perhaps 
+Expose names of top-level test suites for easier scripting 
+Reduce size of encoding buffer for short character values 
+Write a regression test to verify the behavior of 
+code in 
+Internal assignment of tablenumer columnnumber looks wrong in query tree although no ill effects are 
+Add method to obtain a bogus port in TestConfiguration 
+Enable BOOLEAN typed columns 
+add more information to the XACT_PROTOCOL_VIOLATION returned from 
+Simplify SYSCS_BULK_INSERT with 
+Unchecked warnings in JMXManagementService and VTI demos 
+Refactor access to primary structures in AlterTableConstantAction 
+Release notes should specify which Java version is needed to run Derby 
+[patch] remove erroneous throws clauses on non derivable methods that don't throw 
+[patch] being native is more performant 
+[patch] reduce superfluous boxing histrionics 
+[patch] remove unused fetching of data dictionary 
+[patch] use string buffers when building strings in loops 
+[patch] move instanceof check up above where casts occur 
+[patch] remove non productive instanceof checks 
+Disable istat logging by default 
+[patch] avoid Boolean allocations for rowset data in client cursor 
+[patch] avoid Integer allocations fetching client meta data info 
+PropertySetter should ignore GCJ installations 
+Remove usages of DriverManager to obtain an Embedded Connection in Derby Server 
+null tableName null) does not return the columns meta for a SYNONYM 
+Simplify bytecode generation for concatenation operator 
+Update directory 
+Change to print the class as well as fixture name 
+Remove dead methods (June 2011) 
+Restricted Table Function support should pass NOT EQUAL restrictions to initScan 
+Make Derby run on Oracle Java ME Embedded Client 
+ant release should not modify drdamaint version 
+Speed up message splitting in build 
+Speed up creation of bin scripts 
+Don't run MessageVetter unless messages have changed 
+Reduce number of jar invocations in the buildjars target 
+Subquery is only allowed to return a single column - When using derby with hibernate (or JPA) queries are created per JPA For tables with multi-column PK subqueries are created with two columns in select 
+Harden password hashing in the builtin authentication service 
+Call initCause() and getCause() without reflection in BaseJDBCTestCase 
+Remove unnecessary field rwsOK in DirStorageFactory4 
+Network Server should reject client connections that are not Derby Network Client 
+[patch] access static constants with static references 
+Prepare old test harness for running tests on Java 8 
+Get upgrade tests to pass on OJEC 
+Clean up statements in CreateTableFromQueryTest 
+Remove unsued code in 
+Native user authentication: improve wording of error message 
+Use TestNullOutputStream where possible 
+Remove duplicated code for starting remote processes in replication tests 
+Replication tests should use to run local commands 
+Make it possible to turn off encryption on an already encrypted 
+Remove unused methods in 
+Disable on platforms that don't support EUC_JP or SJIS 
+Remove unused class ExecProcUtil 
+Add to junit-core ant target 
+Clean up IDE warnings in DRDAConnThread 
+Remove unused methods in DDMReader and DDMWriter 
+Remove JDBC 3 constants from 
+Prune the brokered class tree 
+Add message argument names as comments to English message file produced by 
+Simplify JSR-169 implementation class tree 
+add ibm18 class to 
+Add utility methods to query state of URL attributes in EmbedConnection 
+Stop producing byte code for non-existent qualifiers 
+Use to start process from NetworkServerTestSetup 
+Lift the arbitrary limit on the number of routine 
+Add automatic cleanup of connections opened with openDefaultConnection() 
+Simplify code that handles LOB files 
+Clean up registered format ids 
+Make Optimizer trace logic 
+Use the JVM's cache of Number instances in ReuseFactory 
+Remove unnecessary checks for exception in the client 
+Add ability to print a Derby execution ResultSet as 
+Add ability to compactly specify a complete query plan in an optimizer 
+Use in 
+Allow tests to show detailed error when spawning new process fails 
+Simplify PropertyUtil using 
+Log a page dump to if error nospc: is returned to the user 
+Simplify StringBuffer use as they are mutable 
+Remove Profile attribute from jar file manifests 
+Create a regression test which will fail if classes from one Derby jar file leak into another jar file 
+Revamp the vti demo to look and behave more like the other 
+Include SQLState in client exception messages 
+Remove and its implementations 
+Remove storageFactory field from subclasses of InputStreamFile 
+Simplify handling of untyped nulls in CASE and NULLIF expressions 
+add HoldForConnection ij command to match NoHoldForConnection 
+Use interfaces for XPath support 
+Check type of user-supplied modules before creating instances 
+Support standard syntax for altering column nullability 
+Allow Derby to rename tables referenced by foreign keys 
+For update statement collect generated keys if flag is supplied to the JDBC 
+Remove need for for executing ij or upload it on ibiblio 
+Fix hard-coded JDBC type constants 
+In certain test orders cause exception 
+Utilize JQL to fetch JIRA issue list for release notes generation 
+Remove unused parameter in splitmessages 
+open Modal Window without AjaxRequestTarget 
+Make debug settings session dependent 
+Support case insensitive mount paths 
+Russian 
+extract IPageMap interface from PageMap 
+Remove RequiredTextField from 
+set session locale when constructing session object 
+Access to init parameters through not working 
+Extend cases where the exception can be ignored due to an aborted request 
+Default code for popups should always try to bring the popped up window to the top (focus) 
+table background='foo' url prefixing 
+Remove and the synchronize blocks using it 
+Translation for Czech language 
+Download link does not set Content-Type and Content-Length headers 
+clock component doesn't display seconds in some Locales 
+Add ability to manage disabled items from subclasses of AbstractChoice 
+@SpringBean support of non-singleton beans 
+[Patch] do not serialize choices and select in 
+Handle servlet mapping or fail consistenly 
+Be able to add string arrays to configuration of DatePicker 
+improved reporting on locked page maps 
+Investigate whether we can use component meta data for the storage of feedback messages 
+Change name of IFormProcessingListener 
+Better error message for problematic configuration 
+HeaderContributions are missing if is a 
+wicket-examples grey-on-white colour scheme is very hard to read 
+wicket-examples source code view is not resizable 
+fire onchange event of associated component after date selection 
+enhance ichoicerenderer with id->choice object lookup 
+AjaxEditableLabel needs Model for adding a IValidator 
+DateTextField is too session-heavy 
+Unable to remove an IFormValidator from a Form 
+make getConvertedInput final again and remove final from convert which should be renamed to convertInput 
+make default maximum upload size an application setting 
+WicketTester cause exception 
+Qualified resource key should take priority over unqualified one 
+add support for localization 
+Disable line-precise exception for component use check 
+Easy access to final rendered page source 
+upgrade to SLF4J to version 
+Use -DpackageName if it is specified 
+Option to align DatePicker to the left of icon 
+Add class or id to AjaxFallbackDefaultDataTable elements (NavigationToolbar to facilitate CSS styling 
+Minor patch in polish translation 
+Wicket Javadoc Standardization: 
+Fix a TODO for at 
+javadoc typos 
+Wicket Javadoc Standardization: 
+Wicket Javadoc Standardization: 
+Remove final from urlCodingStrategyForPath 
+Correct javadoc for Fragment 
+Missing img alt attribute in WicketAjaxIndicatorAppender 
+Extending PagingNavigator for stateless pages 
+Change log in from error to warn 
+add sanity check on form submit for request method 
+Tolerate malformed If-Modified-Since header 
+IDataProvider-Overflow with size() 
+i18n: Translation of resource files in Korean 
+Use X-Forwarded-For header for getting the IP address of the client in WebClientInfo 
+upgrade to YUI 
+WicketTester recreates session after setting attributes on it 
+Allow to query component markup id without creating one 
+Report last focused element id on ajax request 
+Make Cookie-Detection possible without JavaScript 
+Improve SelectOptions: allow customization of created SelectOption objects 
+HybridUrlCodingStrategy should throw a exception if a RequestListenerInterface is targeted on a non-existent 
+Make substitutePropertyExpressions() in Localizer overridable 
+BigDecimalConverter is not precise 
+Not all of SignInPanel is properly localized 
+CheckGroupSelector should implement ILabelProvider 
+Allow to change charset in StringRequestTarget 
+request to make RadioChoice getPrefix() and getSuffix() non-final 
+make return 'this' for chaining 
+Make the Source Code pages for examples stateless 
+Add downloadSources option to quickstart page 
+Allow form to specify prefix for formcomponent names 
+WicketAjaxIndicatorAppender rename to AjaxIndicatorAppender 
+make AutoCompleteBehavior's configuration more flexible 
+Localizer API should be enhanced so that the cache implementation can be overwritten 
+Fix default localizations 
+Make functionality of ContextImage a behavior so that other types of components can utilize its functionality 
+Allow configuration of the guice Stage for GuiceWebApplicationFactory 
+Improve Locale fallback in BundleStringResourceLoader 
+AbstractTree XHTML Strict validation 
+FormComponents (and subclasses) should be able to provide their own resource bundles 
+Add getter and setter for data provider to AjaxFallbackDefaultDataTable 
+Please make SessionData) protected 
+setters on FeedbackPanel do not return self which prevents chaining 
+Callback after detaching the page but before the PageMap lock is released 
+AutoComplete - KEY_TAB should work like KEY_ENTER 
+Should the QuickStart archetype generated inlude the Wicket namespace in the html tag? 
+PageLink is inherently non extendable 
+Polish translations for wicket-extensions properties 
+StringValidator error messages erroneously mention input instead of label 
+TabbedPanel accepts only ITab(s) 
+is outdated 
+PatternValidator could allow reverse matches 
+less dynamic or missing toString( ) methods in Component class 
+typo in exception message: 'alredy' 
+Resource in OSGI environment spams error for gone resources 
+Nested directory support for ZipResourceStream 
+Allow overriding of the Validator default MessageKey 
+IndexedHybridUrlCodingStrategy constructor should accept a redirectOnBookmarkableRequest boolan 
+Remove IComponentBorder in favor of IBehavior 
+Link: PopupSettings - overriding getPopupSettings has no effect 
+Update hungarian localization 
+CLONE -Make LoadableDetachableModel writable 
+AjaxFormSubmitBehavior cannot be applied to Form 
+Widen type-constraint on variables) 
+DefaultCssAutocompleteTextField should be renamed 
+Improve MixedParamUrlCodingStrategy introduce Hybrid 
+Internal Spring beans should be ignored 
+AjaxEditableLabel: newPanel - use Component instead of WebComponent for easier subclassing 
+IE8: be more verbose if ajax refresh fails 
+Allow using a different FileItemFactory by extracting a method in MultipartServletWebRequest class 
+Upgrade to SLF4J version 
+Behavior for accepted locales should fit the HTTP Specification 
+Improve consistency of exception error messages 
+Resource related classes don't take 'variation' into account 
+RepeatingView's Javadoc to include newChildId() and add() 
+ExternalLink to take IModel instead of IModel for label 
+Allow subclasses of AuthenticatedWebSession to set 'signedIn' field 
+Make and internationalizable 
+Ability to add CSS style to table body in DataTable 
+Extract lazy AbstractListDataProvider out of 
+Panel throws exception without passing MarkupStream 
+AjaxPagingNavigator Link factories should return AbstractLink 
+doesn't work with wicket-guice 
+Enhancing RadioChoice input items with individual title and css class attributes 
+Set Application ThreadLocal in WicketSessionFilter 
+Submitting a form with Ajax in WicketTester does not check if form is multiPart 
+ListMultipleChoice's Constructors Should Accept IModel> 
+ChoiceGroup's Constructor Should Accept IModel> 
+More 'IModel<? extends Collection<' Fixes 
+FileUpload#writeTo copies the stream a possible rename would be faster 
+RangeValidator should use getMinimum and getMaximum 
+Use Apache Nexus Maven Repository instead of self hosted maven repository on 
+AbstractPropertyModel getObjectClass don't consider nested IObjectClassAwareModel targets 
+Exposes Application DebugSettings related functionality for JMX 
+Remove HeaderContributor and friends in favor of IHeaderContributor 
+Make Component and IBehavior directly implement IHeaderContributor to make things simpler 
+invoke onSubmit() of nested Forms before onSubmit() of enclosing Form 
+Add timestamp part to resource filenames for better caching 
+Add IRequestListener interface to allow easier framework extension points 
+test for undefined in the same manner throughtout the 
+support building wicket offline by resolving DTD references locally 
+Strange IResourceStream type hierarchy 
+Parametrize IFilterStateLocator 
+pos) returns empty list so why bother 
+Complete documentation of Component Lifecycle 
+AnnotationsRoleAuthorizationStrategy isInstantiationAuthorized package==false class==true returns true 
+Add restartResponseAtSignInPage() Method to AuthenticatedWebApplication 
+DropDownChoice: 'data' or 'choices?' 
+Please use lists instead of arrays 
+Url should accept null parameters list 
+Multiple language support for UploadProgressBar 
+Upgrade jetty version to 
+Add class for span with text in 
+'wicket' Maven module brings the other three wicket modules as transitive dependencies 
+Improve SerializableChecker message 
+Extend multiple file handling to IMultipartWebRequest 
+Comment: interfsace to interface 
+Comment 
+Add wicket version to initial page in wicket-examples 
+addValue 
+Add methods to IBehavior to listen for configuration events 
+PackagedTextTemplate -> PackageTextTemplate 
+Update jetty to and spring to 
+Greek (el) 
+Allow for dynamic prefix and suffixes in CheckBoxMultipleChoice 
+Modify method signature to exactly match the one defined in superinterface 
+Proposal: merge upload progress monitoring functionality into wicket-core 
+Make AjaxLink's URL more configurable 
+Add possibility to test with WicketTester 
+Make Select component generic 
+Allow AttributeAppender to also prepend values 
+Reset the busy flag in if the execution of the callback fails for some reason 
+Constructor of should be public 
+Expose active requests via JMX 
+Add a link to the main page of Wicket Examples in the 'stateless' example page 
+Let AbstractResourceStreamWriter implement empty getContentType() 
+Unable to override final method isLinkEnable of class AbstractLink 
+MarkupResourceStream should use debug instead of info to log non-standard namespace 
+Add converter for Calendar class 
+does not support the 'defer' attribute 
+Improve WebClientInfo logic to extract the exact browser version 
+Make generic 
+Split IHeaderContributor into IHeaderContributor and IComponentAwareHeaderContributor to make implementation cleaner 
+loops over all behaviors even if markupId is found 
+Please improve error for WicketTester#assertRenderedPage 
+Allow filtering and grouping of resources in the 
+Add exception constructors to specify a RedirectPolicy 
+Touch the page only when it is just read from the page store 
+Differentiate Google Chrome from Safari in 
+CheckGroup's model update should be aligned with ListMultipleChoice 
+wicket FileChannelPool has scalability issues 
+Simplify BrowserInfoPage by using InterceptData 
+Remove duplicated resource resolution logic 
+Prevent ResourceNameIterator from iterate the same name twice 
+LinkType inner class is duplicated 
+make PropertiesFactory easier to use outside of wicket scope 
+Allow validators to detach by mixing in IDetachable 
+FilterForm#enableFocusTracking(FormComponent) method uses ComponentTag#put(String CharSequence) with key='id' which gives a warning in Wicket 
+Improve AJAX FunctionsExecutor robustness with 
+IResourceCachingStrategy is too much bound to PackageResource make it more general 
+Make and similar methods as public methods 
+Please Allow AjaxLink to use getChannelName 
+Register devutils only if IDebugSettings#isDevelopmentUtilitiesEnabled() is true 
+Assume that without explicit return value means that submit should proceed 
+Provide new HybridPageParametersEncoder class for backwards compatibility with pre Hybrid URL encoding 
+Make Application#init() run after IInitializers to allow the application to override any settings configured by initializers 
+Add localization resources for DataTable components 
+Add additional constructor to DownloadLink that accepts the filename in a Model 
+RequestHandlerStack: Unnecessary Stacktrace in log on exception 
+Do not add anti cache parameter to the images used for the Tree's junction links 
+javadocs of SpringComponentInjector and 
+Allow passing custom AjaxChannel in AjaxLazyLoadPanel 
+Add CachingResourceVersion#invalidate(IStaticCacheableResource) to manually purge cache entries 
+add for spanish localization 
+Upgrade pom reference for joda-time from to 
+Quality of ThumbnailImageResource 
+Remove superfluous call to ResourceReference#getResource() in ResourceMapper when trying to map the resource URL 
+Rendering of resources in the header with dependency resolving and support for bundles 
+blocks forever 
+Wicket autocomplete doesn't take the scrollbar into account when calculating the width 
+Make AjaxRequestTarget an interface and move the impl to AjaxRequestHandler 
+Implement onValidateModelObjects() and beforeUpdateFormComponentModels() for nested forms 
+Extract the code that creates the XML for Ajax responses out of AjaxRequestHandler 
+Useless concatenation with empty string in 
+Two exception classes 
+Add maxlength to wicket-datetime hours minutes input fields 
+ChoiceFilteredPropertyColumn with setNullValid to true 
+Replace all with Wicket's char) for better performance 
+Change error API to work with as other methods (info error success in Component and Session 
+setTextEncoding on 
+Use an external host for the static javascript files (specially JQuery) 
+Stateful components which are invisible force page to be stateful 
+Generic registry of resource references 
+??????? ModificationWatcher easier for extending 
+Add setHeader() to MockHttpServletRequest to be able to override default headers 
+Give StringValue toEnum methods 
+OpenCloseTagExpander should include i tag 
+Recorder#getSelectedChoices() can be very slow under certain circumstances 
+Add Generics to TabbedPanel: 
+Vars in error should be properly converted 
+Optimize exception to not load its stacktrace 
+Change Url#parse() methods to accept CharSequence instead of String 
+AbstractLink does not call getBody to get its body 
+Using setResponsePage() before page rendering should skip the rendering of the page 
+Make it possible to use JsonFunction as a AjaxCallListener's handler 
+Upgrade Atmosphere to 
+Add an additional Ajax call listener point - before the call 
+ResourceModel once assigned should not re-assign 
+Allow using custom CSS classes for the selected and last TabbedPanel tabs 
+Filter component does not clear filter fields 
+TimeField not able to work with a 
+Wicket unit tests rely on hashmap iteration order 
+Add #setStatus(int) in 
+Make SerializationChecker easier for extending so custom checks can be added to it 
+Making MultiFileUploadField use HTML5 multiple attr & remove confusing fakepath 
+CheckBoxMultipleChoice should implement getAdditionalAttributes as RadioChoice 
+Use a Set to keep the supported wicket elements in WicketTagIdentifier 
+AjaxPagingNaviagtionLink should provide updateAjaxAttributes like AjaxLink 
+ConcatBundleResource should use the respective ITextResourceCompressor 
+Use a behavior that modifies AbstractLink's markup when disabled 
+PagingNavigation: possible to call setStartIndex() earlier than onBeforeRender? 
+ModalWindow overwrites 
+Websocket broadcast support does not work with OSGi 
+Palette does not handle disabled choices correctly 
+DownloadLink uses wrong encoding for characters 
+Wicket-atmosphere filters should be functions on AtmosphereResource 
+Allow passing parameters to atmosphere JS 
+Move the logic for creating the proper PackageResource from PackageResourceReference to ResourceReferenceRegistry 
+extra recursion on 
+BaseWicketTester#clickLink() doesn not serialize form to request for SubmitLink but does for AjaxSubmitLink 
+Set the component as a context to the ajax listeners 
+Add equals() and hashcode() implementation to 
+AutoComplete should not request suggestions if input is no longer active element 
+Improve UrlRenderer to be able to render urls without scheme host 
+Allow PackageResource to decide itself whether it could be accepted or not 
+Allow WebApplication-specific Spring configuration 
+The Bootstrap class does not provide a handle for the 
+Extract the short names of the ajax attributes as a constants 
+Set a different TimeZone for the RequestLogger 
+Improve ResourceReference#getDependencies() API 
+Create an interface for the roles replacing the current Roles class 
+Log additional info when FormComponent fails in updateCollectionModel 
+The url gets longer when using StatelessForm with GET method 
+Make ThrottlingSettings mutable 
+Move Form hidden field rendering to dedicated method 
+Change AjaxRequestAttributes#eventPropagation to BUBBLE 
+Provide default messages for upload exception 
+Use documented jQuery APIs for triggering the special event 'inputchange' 
+Do not set the when clicking on a link 
+should be applicable to HTML5 date input types 
+OnEventHeaderItem should remove 'on' prefix for the event name 
+Create a module for Native WebSocket based on JSR 356 
+Static id counter AbstractToolbar prevents stable component paths for testing 
+AbstractResource should check for error code first before for modifications 
+Export resources' version cache attribute as request cycle metadata 
+wicket-bean-validation french translation 
+Make Palette a FormComponentPanel 
+Log the exception if the application cannot start properly 
+Allow form components to trim the input themselves 
+Allow DebugBar contributors to be removed 
+Allow continued processing with WicketTester after exception is thrown 
+Improve 'mvn jetty:run' to behave as 
+Do not initialize pages which were not rendered 
+Implement BigIntegerConverter 
+Allow restarting AbstractAjaxTimerBehavior without updating its hosting component 
+Make CaptchaImageResource easier to extend and reuse 
+Use method chaining where it makes sense 
+Remove 'final' from 
+Disable jar indexing 
+Memory model improvements for Session fields 
+Allow using child selector for JS event bindings 
+Allow models of subtypes of Select type parameter in SelectOption constructor 
+Add callback method 
+Intern strings generated by Wicket that have bigger chance to be duplicated 
+continueToOriginalDestination() fails after redirectToInterceptPage() on AjaxRequest 
+AjaxButton #onSubmit() error intricacies 
+SelectOptions with #setRecreateChoices(true) loses selection on form error 
+Add constant = '0' and type 'Queue' 
+Remove second for CDI related stuff in wicket-examples' 
+CheckingOutputObjectStream should filter duplicates by identity not by equality 
+Allow subclasses of ComponentStringResourceLoader to stop at specific components 
+Add a setting to MultiFileUploadField to not close the file uploads' streams 
+Rename in the quickstart when creating a project for WildFly 
+Form#findSubmittingComponent() should not throw exception if the submitter is 
+Add WicketTester assertion methods for component's markup style variation and locale 
+Use Log4j for the archetype 
+StringValidator should set 'minlength' attribute to input and textarea 
+Upgrade Atmosphere to 
+Avoid using input names that conflict with JavaScript DOM API method and attribute names 
+Log a warning when error is used 
+Add a factory method for WebSocketRequestHandler 
+It is impossible to determine the form submitting component's inputName when AjaxFormSubmitBehavior is used 
+Support src attribute by Link (TextTemplateLink) 

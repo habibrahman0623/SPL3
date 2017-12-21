@@ -1,0 +1,400 @@
+agent should retri heartbeat messag if control did not receiv the heartbeat 
+check for nn safemod dure restart 
+depend of templeton on hcat client 
+remov import of mysql puppet modul from 
+add check to verifi jdk path after instal 
+php notic: undefin variabl: manifest in 
+support filter host base on discoveri statu 
+alert tabl on the right need to be ti to the it is displai 
+remov the word alert from all the nagio alert 
+make the daemon name and other field name consist 
+enabl lzo should show checkbox instead of text 
+increas puppet agent 
+refactor puppet kick loop to easili chang retri and 
+support data cleanup if instal 
+replac with 
+uninstal support from ui 
+remov 'playground' file from hmc 
+support uninstal state in mysql modul 
+file as appropri 
+updat hive config to enabl author 
+manag servic section will have ani empti section when no client onli compon instal 
+init wizard: advanc config valid error can be bypass 
+nagio admin contact should be check to ensur it is alwai an email address 
+templeton data on hdf need to be readabl by all user 
+updat hdf paramet configur descript 
+cleanup of util 
+fixup review and deploi render 
+add link to uninstal on index page 
+comment in 
+html be spew in the review+deploi 
+chang the statu messag locat so that it show below the page summari box rather than abov more better visibl 
+regionserv config in the hbase onli ha localhost in it 
+upgrad to 
+extern messag resourc for the welcom updat style on variou 
+uninstal's wipe flag should be correctli pass to puppet 
+grid mount point page doesn't let on pass with onli a custom mount point 
+scale puppet master to larg number of 
+dure ani process in the cluster initi wizard if the user goe back to the '1 creat cluster' tab the user is 
+depend should be ad onli dure instal phase 
+provid a wai to resum if browser close dure the deploi-in-progress 
+redund download even though the artifact ar alreadi instal 
+cluster statu updat need to happen for all stage of instal 
+make transitiontonextstag more robust 
+log in case of error dure uninstal need to be 
+add flow control - forc redirect to appropri page base on cluster configur statu for better usabl 
+redesign master servic assign page so that it take up less vertic space 
+creat lock file as part of rpm instal 
+packag up the subdirectori in the hmc rpm 
+improv servic manag page and gener popup style 
+mysql packag not be sent dure instal and uninstal 
+uninstal doe not handl compon 
+on singl node instal when instal all the compon the recommend num for task is too high 
+zookeep myid file not exist on zk 
+add node fail to find node in db 
+cannot uninstal - the page hang with the spin icon 
+manual config chang for nn get reset on from hmc 
+complet success add node take on to initi cluster page start from scratch 
+unifi the top nav for both monitor and cluster manag 
+add rpm spec for hmc 
+reset servic back to origin state after reconfigur 
+improv style on error log popup 
+reinstal of cluster after failur to instal result in failur 
+fix bug with jmx pars on 
+us servic stop instead of killal for uninstal 
+uninstal need to updat statu for 
+duplic definit: class[hdp-hbase::regionserv::enabl-ganglia] 
+post cluster the url should be disabl 
+nagio show servic statu critic if hbase is not instal 
+add node page alert remov in case of ad duplic node 
+fix hive stop to escap 
+post-instal add node - updat progress titl and messag to reflect what it's actual done 
+add miss js file for make post cluster instal add node work 
+show the same welcom page to the user if the user start configur a cluster but ha not start deploi yet 
+add node instal mysql server for hive 
+manag servic need a wai to recov from termin browser session 
+servic reconfigur screen should respect the 'reconfigur' attribut set in configproperti tabl 
+make support for os check a bit more robust 
+add rack_info as column in host tabl 
+fix node assign not not allow slave on 
+support resum for add node 
+modifi the router to forc redirect to 'add node progress' popup 
+fix puppet manifest for tarbal download via 
+updat to fix the ganglia monitor_and_server anchor problem 
+fix oozi smoke test failur 
+fix advanc config: hdf reserv space is in too mani byte to 
+creat a spec file with less depend for hmc 
+rpm name need to be 
+templeton config for pig archiv not correct in hmc 
+puppet fail to instal 32-bit jdk properli on rhel6 
+chang os type check dure node bootstrap to allow rhel6 or cento6 node 
+puppet agent instal script should us correct epel repo 
+updat readm to point to trunk 
+remov yui sourc file from svn 
+updat document 
+nagio instal fail on rhel6 
+consolid head tag for organ and combin css file for faster load 
+puppet error cannot reassign variabl zookeep_host at 
+in custom config for nagio: email with multipl period befor the '@' fail valid 
+custom config page: don't allow form submiss if there ar client-side valid error 
+special charact in host file creat on some common window editor caus issu 
+configur jetti compon with a differ name dont work with jetti consum 
+camel jm produc can block a thread under specif circumst 
+activemq target endpoint with transferexchang=true doe not work togeth with sourc file endpoint with premov option set 
+regress : invalid setqueueattributesrequest creat work on 
+regress in valid compon in 
+pre-xslt and valid type convers from byte[] mai easili fail 
+camel-quickfix: quickfixjendpoint should adher the inout exchang pattern if you would ask for thi mep 
+file consum - when us done file name then delet the file when batch is complet 
+when call removeroutedefinit the rout doesn't remov from collect of rout 
+npe when jaxb fallback convert is us with requestentityconvert 
+camel-netti - produc should avoid block while wait for connect 
+camel-jm - jmspollingconsum us the constant field from jmstemplat for receivenowait etc 
+sjm compon's miss taskmanag packag in 
+cach produc is not thread safe 
+except when start the rout via karaf start-rout(camel:rout-start) 
+us annot dsl in bean mai caus async callback to be call twice 
+cameljob implement reli on some inconsist endpoint lru cach - camel endpoint mai not be call on quartz fire after some dai of uptim 
+restletcompon compon is not remov ad rout from router list although rout is remov from 
+noredeliveryonshutdown doesn't work for deadletterchannel 
+camel email compon miss attach 
+camel-rss and camel-atom - not instal in karaf 
+camelblueprintcontext mai be wrongli start and thi mai lead to a deadlock 
+soap over jm doe not work with camel-cxf endpoint 
+cxfendpoint blueprint config have bind element mai lead to npe 
+race condit in aggregatorprocessor recoveri sometim caus duplic 
+step in a block run when the tag is close in the wrong place 
+camel-jm: inout exchang can time out even if respons wa receiv 
+simpl languag - bean function - issu when paramet valu ha comma 
+npe when us the imap mail compon with quartz or the timer and pollenrich 
+camel stream produc never close the stream of file 
+sql compon will not look for paramet in header when no bodi in messag 
+aggreg eip - complet from batch consum should trigger first 
+camel-http - when bridg endpoint then there mai be doubl paramet valu if client send uri paramet 
+http4 compon should default to charset base on content type 
+transferexchag inout activemq except 
+camel-bindi - multipl model in the same packag lead to unpredict result 
+camel:run in blueprint is broken 
+camel-aw - possibl concurr modif except 
+schedul thread pool is not remov from jmx when shut down 
+simpl ognl express - possibl npe when us string replacefirst and replac with an empti string 
+inputstream not be explicitli close 
+camel-cxfr blueprint configur could not be instal if there ar some subel set 
+stringquotehelp - should ignor whitespac between quot paramet 
+camel-exampl-reportincid fail 
+camel-exampl-cxf-tomcat fail 
+restart rout us sql aggreg repositori mai lead to class load issu 
+advicewith doesn't work with dotri 
+mina udp default codec should keep the data as byte[] 
+debugbefor() and debugaft() not call if unit test extend camelblueprinttestsupport 
+properti placehold optim broke placehold in spring camelcontext configur 
+camel-valid not abl to resolv schema when us usesharedschema=fals 
+defaultshutdownstrategi shutdown timeout of 0 will never timeout and go in neg time 
+vm compon - stop a rout when us multipleconsum should not stop mp if there is other rout us it 
+header ar not set correctli in some situat 
+new restlet endpoint don't work if rout is creat after restlet server is 
+rout with suspend sedaconsum can't be stop correctli 
+file consum - race condit for markerfil read lock strategi 
+baseresourc of jetti servletcontexthandl doe not work when project deploi as a bundl 
+endchoic() ha no effect in nest choic definit 
+camel-quartz - state job - redeploi and have chang endpoint uri issu 
+connectiontimeout properti is ignor by javamail 
+null valu ar not support in name paramet 
+throw 
+sftp: npe if no privat kei file is suppli 
+rout slip eip - doe not send exchangesentev notif 
+camel-netti - unabl to consum on udp multicast address 
+wrong inputstream refer is us in method storefil of class scpoper 
+camel-cxf should shutdown the bu when the endpoint is 
+jmx - browsabl endpoint such as seda ha some attribut list as unavai 
+predic from java dsl ar not dump to xml correctli 
+camel-cmi compon: test packag have the wrong name 
+camel-cxf except when us cxf failoverfeatur 
+sjm compon throw class cast error when us with ibm webshper mq 
+camel-dozer - doe not work well in osgi blueprint 
+us simpl languag ognl express doesn't work for bean bind when a field is null 
+memori leak with secur header 
+seda - queue size compar should us equal 
+mbeansregist in defaultmanagementag isn't threadsaf 
+camel-blueprint - us and referr to sslcontextparamet with properti placehold can lead to except 
+camel-yammer - endpoint yammer:current thrown except except 
+instal of camel-stomp featur fail 
+camel-redi: serial pass through uri is us onli on consum 
+xml signatur compon: stream not close in path) 
+bean bind to covari method throw except 
+scp task doe not respect stricthostkeycheck option 
+null pointer except when remov sjmscompon 
+httpconnectionmanagerparam doesn't take effect when it is set to httpcompon 
+rabbitmq compon send basic ack after channel close when endpoint is set to autoack 
+network server protocol error when select fail and 'order by' is specifi 
+npe when try to creat a databas at a directori that is not allow 
+make lock as non-reserv keyword in derbi sinc it is not a reserv keyword in the sql standard 
+npe when creat a trigger on a tabl and default schema doesn't 
+runsuit summari round incorrectli 
+dblook displai messag kei instead of their associ text 
+lock not be releas properli possibl relat to occur of lock escal 
+suit jdk14 is skip incorrectli with j2se 
+derbi incorrectli round doubl valu down dure insert into numer 
+alias column not recogn after 'group order by' combin 
+network server give npe if except ha null argument for error xbm0h) 
+derbi should throw a truncat error or warn when cast a to char or char for bit datatyp and the data is too larg for the 
+incorrect handl when us an updat to set an ident column to default 
+incorrect privileg mai be requir for insert and delet 
+connect open by foreigntablevti never get releas 
+except when call function from trigger 
+infinit loop in 
+networkservercontrol api break when usernam or password contain non-ascii charact 
+option tool registr mai fail becaus the compilercontext is not alwai avail at execut 
+intermitt error in nightli regress test: autoincrementtest 
+start network server on a network drive fail with jdk 7 on window 
+chain a function and procedur 
+syntax error when refer to transit variabl ha whitespac around it 
+non-english local flunk lucenesupporttest 
+testderbi5120numrowsinsydependsfortrigg fail when the start version of the upgrad trajectori is 
+sequenc gener make creat trigger fail with intern error 
+not elimin for case express is broken 
+row_number function throw except in updat statement 
+incorrect nullabl for case express with paramet 
+checktoursdbtest fail while updat sequenc valu on disk 
+broken link in api doc to document 
+user procedur can call system procedur circumv sql 
+compil error us a view as the sourc data set for a merg statement 
+rollback to savepoint allow violat of deferr constraint 
+permiss problem when run junit test with ant 
+row_number should not be allow as argument in a procedur call 
+assert when us count in merg match claus 
+oom when run constraintcharacteristicstest with smaller heap 
+add to the class path of the script in the bin directori 
+add to the maven artifact we publish 
+cannot creat a lucen index if a kei column's name is case-sensit 
+the jacoco-junit target fail to store coverag data for some sub-suit 
+miss url encod 
+wrong sourc path in 
+wickettest fail when call clicklink on a resourcelink to a mount resourc 
+formtest doe not set request paramet for unchang form field 
+npe in 
+lazi-registr fail for mount 
+except after deseri 
+wrong handl of except for resourc#respond and componentresourcerequesttarget#respond 
+mount url fail if filterpath is blank 
+while test with formtest: onselectionchang is not be invok if dropdownchoic is enabl for notif 
+compon reattach and version 
+uncaught except gues url us cryptedurlwebrequestcodingstrategi 
+creat a mountbookmarkablepag with pagemap 
+remov comment from markup can fail 
+npe in requestlogg? 
+wicketservlet deprec and wicketfilt 
+allow to set field valu befor submit a form with ajax in wickettest 
+pallet: ' is miss in html 
+call to enabl and visibleinhierarchi should not be done in compon 
+emailaddresspatternvalid doe not correctli identifi tld with more than 3 letter 
+packagerequesttargeturlcodingstrategi should interrupt the cycl and send a 404 when a cannot be 
+ajaxeditablelabel on setmodel doe not updat the label model onli the editor 
+checkbox incorrectli convert it model valu when a custom boolean convert is instal 
+inherit model cannot be a wrap model 
+bookmarkablepagelink onli set the target attribut when it exist in the markup 
+some compon miss local (navigatorlabel palett) 
+convert in radiochoic 
+code utterli break ajaxeditablelabel 
+dropdownchoic empti model wrong default encod of special char 
+us border with markup inherit caus compon resolut failur 
+ajax request don't detach compon model 
+except in 
+mvn jetti:run; maven-jetti-plugin not configur 
+add global overrid to disabl gzip compress (sap 
+feedback is not clean up upon ajax-request 
+javascript comment strip doesn't handl regexp 
+modalwindow doe not function under opera 
+us webrequestencod everywher a queri string is construct 
+localizedimageresourc escap ampersand twice (regress) 
+test should be test 
+wickettest doe not bind creat session to sessionstor 
+can return time on same dai rather than next dai 
+abstracttextcompon#setconvertemptyinputstringtonul(true) doe not work with iobjectclassawaremodel (affect textfield 
+headercontributor forc rel url 
+prototyp scope spring bean 
+wicketfilt tri to call setclassload() even if it's not chang the default - doesn't work on strict 
+empti when resourc is mount 
+[patch] remov xx in firefox and palett 
+reloadingwicketfilt not work with markup inherit 
+should not attempt to render content if bodyvis is fals 
+if the model is list propertyresolv doesn't try to find 
+ajaxeditablechoicelabel doesn't work 
+invok a request listen on a page return an expir error page 
+wickettest could not handl multipart form without upload 
+onchangeajaxbehavior doe not work with when us safari 
+setvis(fals) on page throw npe 
+gener wrong rel path if current page ha url-encod in the 
+default pagemap name of null is not alwai properli encod into the url 
+select doesn't valid 'requir' 
+setresponsepag() doe not properli redirect from ajax request 
+doe not work with binari file 
+empti content insert into border - throw ugli except 
+session id encod problem in cooki-less mode 
+no scroll behaviour of sourc code viewer in ie 6 
+ajax refresh fail when a fragment is includ in the target 
+ajaxformchoicecomponentupdatingbehavior not work 
+more problem with ajax and transpar contain 
+javadoc for abstractdefaultajaxbehaviorprecondit#getsuccessscript() and #getpreconditionscript() ar swap 
+datetimefield's factori method should pass in id 
+except with urlcompressingwebrequestprocessor in wickettest 
+for global properti show restart for appropri servic onli 
+make singl put call for multipl host overrid 
+capac schedul: when ad a new queue popul field 
+capac schedul: implement and admin valid rule 
+reassign master wizard step 2: prevent proce next without chang target host 
+updat default stack version to 
+allow for user to custom nagio user account 
+host tab: click on red badg should not toggl 'alert' filter 
+add valid check for add properti on custom site config 
+make frontend chang to account for the host compon statu unknown 
+hbase heatmap: clean up label and unit 
+chang servic directori should popup a dialog upon save 
+support for configur and run ambari web server http 
+enabl custom of smoke test user 
+ambari-web modif to allow for hadoop compat filesystem (hcf) 
+us modifi depend if a stack contain an hcf servic (hadoop compat file system) 
+agent heartbeat lost dure instal 
+add unit test for util 
+chang config load mechan to allow for differ stack version 
+provid wai to option enabl two-wai ssl for server-agent commun 
+unit test: ad test to instal wizard for step 3 5 10 
+show instal stack and it servic 
+unit test: ad test to model 
+add host wizard: show info about manual step requir on a secur cluster 
+add support for 'classic' dashboard 
+set default widget to show for the dashboard 
+creat command line script to manipul ambari configur (get set add delet) 
+secur wizard: show which princip and keytab need to be creat on which host 
+remov depend on df_datanod_http_address global for nagio check 
+add download csv action for secur wizard 
+simplifi local repo setup in instal ui 
+secur wizard: creat separ page for 
+secur csv cleanup 
+updat ember-i18n 
+read timeout issu in oracl jdbc connect where read ha a long timeout 
+improv style for hostcleanup code area 
+add a re-type new password field when chang password for ambari user 
+disabl show report for 0 issu 
+disabl autocomplet on form tag for ambari 
+fe should show the error when it encount error while persist web client state 
+dashboard refactor and unit test 
+yarn time seri data need for allocatedcontain 
+hdf servic check fail (as design) but took 10 min to fail 
+renam alert titl and descript 
+provid read-onli view of secur wizard entri 
+trim valid config paramet valu to prevent failur due to extra space 
+amabri client refactor -2 
+setup the krb5 jaa configur us 'ambari-server setup-secur' 
+provid ui page to experiment function 
+cleanup ux for advanc databas in 'ambari-server setup' 
+improv urlrender to be abl to render url without scheme host 
+allow packageresourc to decid itself whether it could be accept or not 
+allow webappl-specif spring configur 
+the bootstrap class doe not provid a handl for the 
+extract the short name of the ajax attribut as a constant 
+set a differ timezon for the requestlogg 
+improv resourcerefer#getdepend() api 
+creat an interfac for the role replac the current role class 
+log addit info when formcompon fail in updatecollectionmodel 
+the url get longer when us statelessform with get method 
+make throttlingset mutabl 
+move form hidden field render to dedic method 
+chang ajaxrequestattribut#eventpropag to bubbl 
+provid default messag for upload except 
+us document jqueri api for trigger the special event 'inputchang' 
+do not set the when click on a link 
+should be applic to html5 date input type 
+oneventheaderitem should remov 'on' prefix for the event name 
+creat a modul for nativ websocket base on jsr 356 
+static id counter abstracttoolbar prevent stabl compon path for test 
+abstractresourc should check for error code first befor for modif 
+export resourc' version cach attribut as request cycl metadata 
+wicket-bean-valid french translat 
+make palett a formcomponentpanel 
+log the except if the applic cannot start properli 
+allow form compon to trim the input themselv 
+allow debugbar contributor to be remov 
+allow continu process with wickettest after except is thrown 
+improv 'mvn jetti:run' to behav as 
+do not initi page which were not render 
+implement bigintegerconvert 
+allow restart abstractajaxtimerbehavior without updat it host compon 
+make captchaimageresourc easier to extend and reus 
+us method chain where it make sens 
+remov 'final' from 
+disabl jar index 
+memori model improv for session field 
+allow us child selector for js event bind 
+allow model of subtyp of select type paramet in selectopt constructor 
+add callback method 
+intern string gener by wicket that have bigger chanc to be duplic 
+continuetooriginaldestin() fail after redirecttointerceptpag() on ajaxrequest 
+ajaxbutton #onsubmit() error intricaci 
+selectopt with #setrecreatechoic(true) lose select on form error 
+add constant = '0' and type 'queue' 
+remov second for cdi relat stuff in wicket-exampl' 
+checkingoutputobjectstream should filter duplic by ident not by equal 
+allow subclass of componentstringresourceload to stop at specif compon 
+add a set to multifileuploadfield to not close the file upload' stream 
+renam in the quickstart when creat a project for wildfli 
